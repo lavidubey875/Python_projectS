@@ -1,190 +1,189 @@
-# 🪔 Diwali Sales Analysis Using Python
+# Data Analytics Portfolio
 
-## 📌 About the Project
+### Python | Pandas | NumPy | Matplotlib | Seaborn | Exploratory Data Analysis
 
-This project focuses on analyzing **Diwali sales data** to understand customer purchasing behavior and identify important sales trends.
+Welcome to my **Data Analytics Portfolio**.
 
-Using Python and Exploratory Data Analysis (EDA), the project explores customer demographics, purchasing patterns, product categories, occupations, and locations to generate meaningful business insights.
-
----
-
-## 🎯 Project Objectives
-
-The main objectives of this project are:
-
-* Understand customer purchasing behavior during Diwali
-* Analyze sales based on **gender and age group**
-* Identify the most valuable customer segments
-* Analyze sales according to **occupation and location**
-* Identify the most popular product categories
-* Find products with higher purchasing demand
-* Create meaningful visualizations from the sales data
-* Derive actionable business insights from the analysis
+This repository contains my hands-on data analytics projects developed using Python. Each project focuses on exploring real-world datasets, performing data cleaning and exploratory analysis, visualizing patterns and trends, and extracting meaningful insights from data.
 
 ---
 
-## 🛠️ Tools & Technologies
+## About This Portfolio
 
-| Tool                | Purpose                      |
-| ------------------- | ---------------------------- |
-| 🐍 Python           | Data Analysis                |
-| 🐼 Pandas           | Data Cleaning & Manipulation |
-| 🔢 NumPy            | Numerical Operations         |
-| 📊 Matplotlib       | Data Visualization           |
-| 📈 Seaborn          | Statistical Visualization    |
-| 📓 Jupyter Notebook | Development Environment      |
+My projects follow a structured approach to data analysis:
+
+**Data → Cleaning → Exploration → Visualization → Insights**
+
+Through these projects, I am developing practical experience in transforming raw datasets into meaningful analytical findings.
 
 ---
 
-## 📂 Dataset
+## Projects
 
-The dataset contains information related to Diwali purchases, including:
+### 01. Diwali Sales Analysis
 
-* Customer demographics
-* Gender
-* Age Group
-* State
-* Occupation
-* Product Categories
-* Product IDs
-* Purchase Amount
+**Domain:** Retail & Sales Analytics
 
-The dataset was cleaned and prepared before performing the analysis.
+An exploratory analysis of Diwali sales data to understand customer purchasing behaviour and identify important sales patterns.
 
----
+**Key Analysis**
 
-## 🔄 Project Workflow
-
-```text
-Raw Dataset
-     ↓
-Data Loading
-     ↓
-Data Cleaning
-     ↓
-Missing Value Handling
-     ↓
-Exploratory Data Analysis
-     ↓
-Data Visualization
-     ↓
-Customer & Sales Analysis
-     ↓
-Business Insights
-```
-
----
-
-## 🔍 Analysis Performed
-
-### 👥 Customer Analysis
-
-* Gender-wise purchasing analysis
-* Age-group-wise sales analysis
-* Identification of major customer segments
-
-### 💼 Occupation Analysis
-
-* Compared purchasing behavior across different occupations
-* Identified occupations contributing significantly to sales
-
-### 📍 Location Analysis
-
-* State-wise order analysis
-* State-wise purchase amount analysis
-
-### 🛍️ Product Analysis
-
-* Product category performance
-* Identification of frequently purchased products
-* Analysis of high-demand categories
-
----
-
-## 📊 Visualizations
-
-The project uses **Matplotlib and Seaborn** to create visualizations such as:
-
-* Gender-wise sales
-* Age-group distribution
-* State-wise orders
-* Occupation-wise sales
+* Customer demographic analysis
+* Gender-wise purchasing behaviour
+* Age-group analysis
+* Occupation-wise sales analysis
+* State-wise sales performance
 * Product category analysis
-* Product purchase trends
+* Purchase amount analysis
 
-These visualizations make it easier to identify patterns and trends in the data.
+**Tools & Technologies**
 
----
-
-## 💡 Key Insights
-
-Through the analysis, several important patterns can be identified:
-
-* Certain customer demographics contribute significantly to overall sales.
-* Some age groups show higher purchasing activity than others.
-* Specific occupations contribute more to the total purchase amount.
-* Certain states generate a larger number of orders.
-* Some product categories have considerably higher demand.
-
-These insights can help businesses understand their customers and make better decisions regarding **marketing, product demand, and customer targeting**.
+`Python` `Pandas` `NumPy` `Matplotlib` `Seaborn`
 
 ---
 
-## 🚀 How to Run This Project
+### 02. Airbnb Data Analysis
 
-### 1. Clone the Repository
+**Domain:** Hospitality & Pricing Analytics
 
-```bash
-git clone https://github.com/your-username/your-repository-name.git
-```
+An exploratory analysis of Airbnb listing data to understand pricing behaviour, room-type distribution, neighbourhood trends, availability, and listing characteristics.
 
-### 2. Install Required Libraries
+**Key Analysis**
 
-```bash
-pip install numpy pandas matplotlib seaborn
-```
+* Data cleaning and preprocessing
+* Room-type analysis
+* Price distribution and comparison
+* Neighbourhood analysis
+* Availability analysis
+* Review analysis
+* Correlation analysis
+* Data visualization
 
-### 3. Open Jupyter Notebook
+**Tools & Technologies**
 
-```bash
-jupyter notebook
-```
-
-### 4. Run the Notebook
-
-Open the `.ipynb` file and execute the cells to reproduce the analysis.
+`Python` `Pandas` `NumPy` `Matplotlib` `Seaborn`
 
 ---
 
-## 📁 Project Structure
+## Technical Skills
+
+**Programming & Analysis**
+
+* Python
+* Pandas
+* NumPy
+
+**Data Visualization**
+
+* Matplotlib
+* Seaborn
+
+**Analytics**
+
+* Data Cleaning
+* Data Preprocessing
+* Exploratory Data Analysis (EDA)
+* Descriptive Analysis
+* Data Visualization
+* Insight Generation
+
+**Tools**
+
+* Jupyter Notebook
+* Git & GitHub
+
+---
+
+## Project Methodology
+
+Each project follows a systematic data analytics workflow:
 
 ```text
-Diwali-Sales-Analysis/
-│
-├── Diwali Sales Data.csv
-├── Diwali_Sales_Analysis.ipynb
-├── README.md
-└── images/
+1. Data Collection
+        ↓
+2. Data Understanding
+        ↓
+3. Data Cleaning & Preprocessing
+        ↓
+4. Exploratory Data Analysis
+        ↓
+5. Data Visualization
+        ↓
+6. Pattern & Trend Identification
+        ↓
+7. Insight Generation
 ```
 
 ---
 
-## 📌 Conclusion
+## Key Competencies
 
-This project demonstrates how **Python can be used for data cleaning, exploratory data analysis, visualization, and business insights**.
+Through these projects, I have gained practical experience in:
 
-It helped me gain practical experience with **Pandas, NumPy, Matplotlib, and Seaborn** while working with a real-world sales dataset.
-
----
-
-## 👩‍💻 Author
-
-### Lavi Dubey
-
-**Aspiring Data Analyst | Python | SQL | Excel | Power BI**
-
-🔗 GitHub: https://github.com/lavidubey875
+* Working with real-world datasets
+* Cleaning and preparing raw data
+* Handling missing and inconsistent values
+* Performing exploratory data analysis
+* Creating informative visualizations
+* Identifying trends and relationships
+* Interpreting analytical results
+* Communicating data-driven insights
 
 ---
 
-⭐ **If you find this project useful, consider giving the repository a star!**
+## Current Learning
+
+I am continuously strengthening my Data Analytics skill set in:
+
+**Python · SQL · Excel · Power BI · Statistics · Data Visualization**
+
+My current focus is on building practical projects that demonstrate both **technical proficiency and business-oriented analytical thinking**.
+
+---
+
+## About Me
+
+**Lavi Dubey**
+Aspiring Data Analyst
+
+I am passionate about using data to discover patterns, solve analytical problems, and support data-driven decision making.
+
+**GitHub:**
+github.com/lavidubey875
+
+---
+
+## Repository Structure
+
+```text
+Data-Analytics-Portfolio/
+│
+├── Diwali-Sales-Analysis/
+│   ├── Diwali_Sales_Analysis.ipynb
+│   └── dataset/
+│
+├── Airbnb-Data-Analysis/
+│   ├── Airbnb_Data_Analysis.ipynb
+│   └── dataset/
+│
+└── README.md
+```
+
+---
+
+## Disclaimer
+
+These projects are part of my **Data Analytics learning and portfolio development** and are intended to demonstrate practical application of data analysis concepts.
+
+---
+Connect With Me
+Lavi Dubey
+Aspiring Data Analyst
+
+GitHub:
+https://github.com/lavidubey875
+
+### Thank You for Visiting
+
+Thank you for taking the time to explore my work.
+I am continuously learning, building, and improving my skills in Data Analytics.
