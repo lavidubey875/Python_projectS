@@ -1,189 +1,159 @@
-# Data Analytics Portfolio
+# 📊 Python Data Analysis Projects
 
-### Python | Pandas | NumPy | Matplotlib | Seaborn | Exploratory Data Analysis
+### A collection of practical data analysis projects using Python
 
-Welcome to my **Data Analytics Portfolio**.
+This repository showcases my hands-on experience in **Data Analysis, Exploratory Data Analysis (EDA), Data Cleaning, and Data Visualization** using Python.
 
-This repository contains my hands-on data analytics projects developed using Python. Each project focuses on exploring real-world datasets, performing data cleaning and exploratory analysis, visualizing patterns and trends, and extracting meaningful insights from data.
-
----
-
-## About This Portfolio
-
-My projects follow a structured approach to data analysis:
-
-**Data → Cleaning → Exploration → Visualization → Insights**
-
-Through these projects, I am developing practical experience in transforming raw datasets into meaningful analytical findings.
+The projects focus on analyzing real-world datasets and transforming raw data into meaningful insights that can support data-driven decision-making.
 
 ---
 
-## Projects
+## 🚀 Projects
 
-### 01. Diwali Sales Analysis
+| #  | Project                        | Domain             | Key Focus                  |
+| -- | ------------------------------ | ------------------ | -------------------------- |
+| 01 | 🪔 **Diwali Sales Analysis**   | E-commerce & Sales | Customer & Sales Insights  |
+| 02 | 🏠 **Airbnb Data Analysis**    | Hospitality        | Pricing & Listing Analysis |
+| 03 | 📉 **Customer Churn Analysis** | Customer Analytics | Churn & Retention Insights |
 
-**Domain:** Retail & Sales Analytics
+---
 
-An exploratory analysis of Diwali sales data to understand customer purchasing behaviour and identify important sales patterns.
+## 🪔 01. Diwali Sales Analysis
 
-**Key Analysis**
+### 📌 Overview
 
-* Customer demographic analysis
-* Gender-wise purchasing behaviour
-* Age-group analysis
-* Occupation-wise sales analysis
+An exploratory analysis of Diwali sales data to understand **customer purchasing behaviour, sales performance, and product trends**.
+
+### 🔍 Key Analysis
+
+* Customer demographics
+* Gender and age-group purchasing patterns
 * State-wise sales performance
+* Occupation-wise purchasing behaviour
 * Product category analysis
-* Purchase amount analysis
+* Top-selling products
+* Customer purchasing trends
 
-**Tools & Technologies**
+### 💡 Key Skills
 
-`Python` `Pandas` `NumPy` `Matplotlib` `Seaborn`
+`Data Cleaning` `EDA` `Data Visualization` `Business Insights`
 
 ---
 
-### 02. Airbnb Data Analysis
+## 🏠 02. Airbnb Data Analysis
 
-**Domain:** Hospitality & Pricing Analytics
+### 📌 Overview
 
-An exploratory analysis of Airbnb listing data to understand pricing behaviour, room-type distribution, neighbourhood trends, availability, and listing characteristics.
+An exploratory analysis of Airbnb listings to identify **pricing patterns, room-type trends, neighbourhood differences, availability, and review behaviour**.
 
-**Key Analysis**
+### 🔍 Key Analysis
 
-* Data cleaning and preprocessing
+* Price distribution
+* Price outlier detection
+* Neighbourhood-wise pricing
 * Room-type analysis
-* Price distribution and comparison
-* Neighbourhood analysis
+* Reviews vs. price relationship
 * Availability analysis
-* Review analysis
+* Geographical distribution of listings
 * Correlation analysis
-* Data visualization
 
-**Tools & Technologies**
+### 💡 Key Skills
 
-`Python` `Pandas` `NumPy` `Matplotlib` `Seaborn`
+`EDA` `Statistical Analysis` `Data Visualization` `Outlier Detection`
 
 ---
 
-## Technical Skills
+## 📉 03. Customer Churn Analysis
 
-**Programming & Analysis**
+### 📌 Overview
 
-* Python
-* Pandas
-* NumPy
+An exploratory analysis of customer data to understand **churn behaviour and identify factors associated with customer retention and loss**.
 
-**Data Visualization**
+### 🔍 Key Analysis
 
-* Matplotlib
-* Seaborn
+* Overall churn distribution
+* Churn by customer demographics
+* Contract type vs. churn
+* Tenure vs. churn
+* Internet service vs. churn
+* Payment method analysis
+* Monthly charges vs. churn
+* Service-related churn patterns
 
-**Analytics**
+### 💡 Key Skills
 
-* Data Cleaning
-* Data Preprocessing
+`Customer Analytics` `EDA` `Data Visualization` `Business Insights`
+
+---
+
+## 🛠️ Technologies & Libraries
+
+* 🐍 **Python**
+* 🐼 **Pandas** — Data manipulation & analysis
+* 🔢 **NumPy** — Numerical computing
+* 📊 **Matplotlib** — Data visualization
+* 🎨 **Seaborn** — Statistical visualization
+* 📓 **Jupyter Notebook** — Analysis environment
+
+---
+
+## 📈 Data Analysis Skills Demonstrated
+
+Through these projects, I have practiced:
+
+* Data Cleaning & Preprocessing
 * Exploratory Data Analysis (EDA)
-* Descriptive Analysis
+* Data Manipulation
 * Data Visualization
-* Insight Generation
-
-**Tools**
-
-* Jupyter Notebook
-* Git & GitHub
+* Statistical Analysis
+* Correlation Analysis
+* Outlier Detection
+* Pattern Identification
+* Business Insight Generation
+* Data-driven Decision Making
 
 ---
 
-## Project Methodology
-
-Each project follows a systematic data analytics workflow:
+## 📂 Repository Structure
 
 ```text
-1. Data Collection
-        ↓
-2. Data Understanding
-        ↓
-3. Data Cleaning & Preprocessing
-        ↓
-4. Exploratory Data Analysis
-        ↓
-5. Data Visualization
-        ↓
-6. Pattern & Trend Identification
-        ↓
-7. Insight Generation
-```
-
----
-
-## Key Competencies
-
-Through these projects, I have gained practical experience in:
-
-* Working with real-world datasets
-* Cleaning and preparing raw data
-* Handling missing and inconsistent values
-* Performing exploratory data analysis
-* Creating informative visualizations
-* Identifying trends and relationships
-* Interpreting analytical results
-* Communicating data-driven insights
-
----
-
-## Current Learning
-
-I am continuously strengthening my Data Analytics skill set in:
-
-**Python · SQL · Excel · Power BI · Statistics · Data Visualization**
-
-My current focus is on building practical projects that demonstrate both **technical proficiency and business-oriented analytical thinking**.
-
----
-
-## About Me
-
-**Lavi Dubey**
-Aspiring Data Analyst
-
-I am passionate about using data to discover patterns, solve analytical problems, and support data-driven decision making.
-
-**GitHub:**
-github.com/lavidubey875
-
----
-
-## Repository Structure
-
-```text
-Data-Analytics-Portfolio/
+Python-Data-Analysis-Projects/
 │
 ├── Diwali-Sales-Analysis/
 │   ├── Diwali_Sales_Analysis.ipynb
-│   └── dataset/
+│   └── dataset.csv
 │
 ├── Airbnb-Data-Analysis/
 │   ├── Airbnb_Data_Analysis.ipynb
-│   └── dataset/
+│   └── dataset.csv
+│
+├── Customer-Churn-Analysis/
+│   ├── Customer_Churn_Analysis.ipynb
+│   └── dataset.csv
 │
 └── README.md
 ```
 
 ---
 
-## Disclaimer
+## 🎯 Objective
 
-These projects are part of my **Data Analytics learning and portfolio development** and are intended to demonstrate practical application of data analysis concepts.
+The objective of this repository is to demonstrate my ability to work with real-world datasets, perform **exploratory data analysis**, create effective visualizations, and communicate meaningful insights from data using Python.
+
+These projects represent my ongoing journey toward building a strong foundation in **Data Analytics**.
 
 ---
-Connect With Me
-Lavi Dubey
-Aspiring Data Analyst
 
-GitHub:
-https://github.com/lavidubey875
+## 👩‍💻 Author
 
-### Thank You for Visiting
+### **Lavi Dubey**
 
-Thank you for taking the time to explore my work.
-I am continuously learning, building, and improving my skills in Data Analytics.
+🎓 B.Tech CSE | Aspiring Data Analyst
+
+🔗 **GitHub:** https://github.com/lavidubey875
+
+🔗 **LinkedIn:** https://www.linkedin.com/in/lavi-dubey-977aaa418/
+
+---
+
+⭐ **If you find these projects useful, feel free to explore the repository and give it a star!**
